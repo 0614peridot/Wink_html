@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .screen {
+            width: 414px;
+            height: 800px;
+            background-color: white;
+            margin: 0 auto
+        }
+        #top {
+            display: flex;
+        }
+        .instalogo {
+            width: 200px;
+            height: 80px;
+            margin-top: 15px;
+            margin-right: 50px;
+        }
+        #topicons{
+            display: flex;
+            margin-left: 20px;
+        }
+        .righttop {
+            width: 40px;
+            height: 40px;
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+
+
+        #profile {
+            display: flex;
+        }
+        #roundphoto {
+            width: 40px;
+            height: auto;
+        }
+        #account {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 17px;
+            text-align: left;
+            color: black;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        #picture {
+            width: 450px;
+            margin-top: 10px;
+        }
+        #under {
+            display: flex;
+            margin-top: 5px;
+            margin-bottom: 2px;
+        }
+        #undericons {
+            width: 40px;
+            height: 40px;
+            margin-left: 8px;
+        }
+
+        #bookmark{
+            width: 40px;
+            height: 40px;
+            margin-left: 270px;
+        }
+
+        #like {
+            display: flex;
+        }
+
+        #like_text {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 15px;
+            color: black;
+            margin-top: 8px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+        #caption {
+            display: flex;
+        }
+        #caption_id {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 15px;
+            text-align: left;
+            color: black;
+            margin-top: 5px;
+        }
+        #caption_text {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: #07125c;
+            margin-top: 6.5px;
+            margin-left: 5px;
+        }
+        #all_comments {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: gray;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+        #comments {
+            display: flex;
+        }
+        #shider {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            text-align: left;
+            color: black;
+        }
+        #comment1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: black;
+            margin-left: 7px;
+        }
+        #other_comment1 {
+            display: flex;
+        }
+        #sungyeonsi {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 15px;
+            text-align: left;
+            color: black;
+            margin-top: 3px;
+        }
+        #comment2 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 15px;
+            color: black;
+            margin-left: 7px;
+            margin-top: 3px;
+        }
+        #written{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            line-height: 15px;
+            color: gray;
+            margin-top: 10px;
+
+    </style>
+</head>
+<body>
+<div class="screen">
+    <div id="top">
+        <img class="instalogo" src="3주차 이미지/instalogo.jpg" height="100"/>
+
+        <div id="topicons">
+            <img class="righttop" src="3주차 이미지/newpost.jpg" height="103"
+            <img  src="newpost.jpg">
+            <img class="righttop" src="3주차 이미지/likes.jpg" height="92" width="92"/>
+            <img class="righttop" src="3주차 이미지/dm.jpg" height="100" width="100"/>
+        </div>
+
+    </div>
+    <div id="profile">
+        <img id="roundphoto" src="3주차 이미지/roundprofile.jpg"/>
+        <div id="account">chanishin1</div>
+    </div>
+
+    <div>
+        <img id="picture" src="3주차 이미지/pic.jpg"/>
+    </div>
+
+    <div id="under">
+        <img id="undericons"  src="3주차 이미지/likes.jpg" height="92" width="92"/>
+        <img id="undericons" src="3주차 이미지/comment.jpg" height="103" width="103"/>
+        <img id="undericons" src="3주차 이미지/dm.jpg" height="100" width="100"/>
+        <img id="bookmark" src="3주차 이미지/bookmark.jpg" height="107" width="107"/>
+
+    </div>
+    <div id="like">
+        <div id="like_text">좋아요 92개</div>
+    </div>
+    <div id="caption">
+        <div id="caption_id">chanishin1</div>
+        <div id="caption_text">#그린룩파파라치 #에메랄드시티</div>
+    </div>
+    <div id="all_comments">댓글 8개 모두 보기</div>
+    <div id="comments">
+        <div id="shider">shi_der</div>
+        <div id="comment1">에메랄드시티에 취업하셔도되겠어요~</div>
+    </div>
+    <div id="other_comment1">
+        <div id="sungyeonsi">sungyeonsi</div>
+        <div id="comment2">선생님.... 저 예약잡을게요...</div>
+    </div>
+    <div>
+        <p id = "written">3일 전</p>
+    </div>
+
+</div>
+</body>
+</html>
