@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>instagram</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        p {
+            margin: 3px;
+        }
+        #header {
+            display: flex;
+            margin: 71px;
+        }
+        #instagram_logo {
+            width: 160px;
+            height: 160px;
+            margin-top: 7px;
+        }
+        #title {
+            display: inline-block;
+            margin-left: 22px;
+            padding-right: 530px;
+        }
+        #insta {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bolder;
+            font-size: 48px;
+            line-height: 56px;
+            color: #FFFFFF;
+            margin-bottom: 15px;
+        }
+        #content {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: lighter;
+            font-size: 36px;
+            line-height: 42px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        #star {
+            width: 34.76px;
+            height : 33.2px;
+            margin-right: 10px;
+        }
+        #user {
+            display: inline-block;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 36px;
+            line-height: 42px;
+
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        #cap{
+            margin-right: 80px;
+        }
+
+        #images {
+            margin-top: 47px;
+            margin-left: 68px;
+            margin-right: 69px;
+            display:  flex;
+            justify-content: center:
+
+        }
+
+
+        #update {
+            background: #a8a8a8;
+            width: 200px;
+            height: 70px;
+            border-radius: 35px;
+
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: Roboto;
+            font-style:  normal;
+            font-weight: bold;
+            color : #3971FF;
+
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <img id="instagram_logo" src="Instagram_logo.png" height="160" width="160"/>
+    <div id="title">
+        <p id="insta">Instagram</p>
+        <p id="content"> 사진 및 비디오</p>
+        <div>
+            <img id="star" src="Vector.png" height="34" width="36"/>
+            <img id="star" src="Vector.png" height="34" width="36"/>
+            <img id="star" src="Vector.png" height="34" width="36"/>
+            <img id="star" src="Vector.png" height="34" width="36"/>
+            <img id="star" src="Vector.png" height="34" width="36"/>
+            <p id="user">125만</p>
+        </div>
+    </div>
+
+    <div id="update">
+        <h1 id="txt">업데이트</h1>
+    </div>
+</div>
+
+<div id="images">
+    <img id="cap" src="InstaImage1.png" height="686" width="383"/>
+    <img id="cap" src="InstaImage2.png" height="686" width="383"/>
+    <img id="cap" src="InstaImage3.png" height="686" width="383"/>
+</div>
+
+</body>
+</html>
