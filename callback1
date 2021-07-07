@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<head/>
+<body>
+<script>
+    class Counter{
+        constructor(){
+            this.counter=0;
+        }
+
+        increase(runIf5Times){
+            this.counter++;
+            console.log(this.counter);
+
+            if(this.counter%5===0)
+                runIf5Times(this.counter);
+        }
+    }
+
+
+    const coolCounter=new Counter();
+
+    function printSomething(num) {
+        console.log('yo!!');
+    }
+
+    function alertNum(num){
+        alert('Wow!');
+    }
+
+
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(printSomething);
+    coolCounter.increase(alertNum);
+</script>
+</body>
+</html>
