@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <head/>
+<body>
+<script>
+    class Counter{
+        constructor(runEvery5Times){
+            this.counter=0;
+            this.callback=runEvery5Times;
+        }
+
+        increase(){
+            this.counter++;
+            console.log(this.counter);
+
+            if(this.counter%5===0){
+                this.callback&&this.callback(this.counter);
+                }
+        }
+    }
+
+
+    function printSomething() {
+        console.log('yo!!');
+    }
+
+    function alertNum(num){
+        alert('Wow!');
+    }
+
+
+    const coolCounter=new Counter(alertNum);
+
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+    coolCounter.increase();
+
+
+
+</script>
+</body>
+</html>
