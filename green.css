@@ -1,0 +1,61 @@
+.Main_logo{
+    margin: 0 auto;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(-120deg, #ebff83, #149014);
+    font-family: 'AppleSDGothicNeoB00';
+    font-size: 20px;
+    font-color: #01340f;
+    text-align: center;
+}
+
+header{
+    background: rgba(28, 95, 23, 0.52);
+    margin: 0;
+    font-family: 'AppleSDGothicNeoB00';
+    font-size: 20px;
+}
+.emerald_city{
+    margin-top: 50px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.navbar_menu{
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+}
+
+.navbar_menu li{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar_menu li:hover {
+    background-color: #0e5024;
+    border-radius: 5px;
+}
+
+.navbar_OZ{
+    list-style: none;
+    color: white;
+    display: flex;
+    margin-right: 300px;
+}
